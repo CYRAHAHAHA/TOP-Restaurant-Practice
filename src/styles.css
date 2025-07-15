@@ -1,0 +1,124 @@
+html {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Style the content div */
+#content {
+    background-color: #fff5f5; /* Subtle white with a hint of red */
+    padding: 2rem;
+    border: 1px solid #b22222;
+    border-top: none; /* To connect the tabs visually */
+    margin-top: -1px; /* Align with the tabs */
+    text-align: center; /* Center-align content for a welcoming look */
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+/* Style the initial page heading */
+#content h1 {
+    font-size: 2.5rem;
+    color: #b22222; /* Deep red for emphasis */
+    margin-bottom: 1rem;
+    font-family: 'Georgia', serif; /* Elegant font for a welcoming feel */
+}
+
+/* Style the initial page paragraphs */
+#content p {
+    font-size: 1.2rem;
+    color: #333333; /* Neutral dark gray for readability */
+    margin-bottom: 1rem;
+}
+
+/* Add a subtle background image or pattern */
+body {
+    background-image: url('https://www.transparenttextures.com/patterns/white-diamond.png'); /* Subtle diamond pattern */
+    background-color: #fff5f5; /* Light red background */
+    font-family: Arial, sans-serif;
+    display:flex;
+    flex-direction: column;
+    min-width: 800px;
+    min-height: 70vh; /* Ensure enough height for content */
+    max-width: 1200px; /* Center the content */
+}
+
+/* Style the navigation bar */
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    background-color: #fff5f5; /* Match the content background */
+    padding: 0.5rem 0 0 0;
+}
+
+/* Style the buttons to look like tabs */
+button {
+    background-color: white;
+    border: 1px solid #b22222; /* Red border for Singapore theme */
+    border-bottom: none; /* To visually connect to the content div */
+    padding: 1rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    flex-grow: 1; /* Make tabs equally big */
+    text-align: center;
+    color: #b22222; /* Red text for theme */
+    font-weight: bold;
+}
+
+/* Add hover effect for buttons */
+button:hover {
+    background-color: #ffe4e1; /* Light red hover effect */
+}
+
+/* Style the active tab */
+button.active {
+    background-color: #b22222; /* Active tab in red */
+    color: white; /* White text for contrast */
+    font-weight: bold;
+    border-bottom: 1px solid #fff5f5; /* Connect visually to the content div */
+}
+
+/* Style the menu grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 1rem; /* Space between rows and columns */
+    margin-top: 1rem;
+}
+
+/* Style individual menu items */
+.menu-item {
+    display: flex;
+    justify-content: space-between; /* Align dish name and price */
+    padding: 0.5rem 1rem;
+    border: 1px solid #e0e0e0;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Add hover effect for menu items */
+.menu-item:hover {
+    background-color: #ffe4e1; /* Light red hover effect */
+}
+
+/* Footer or additional Singaporean icons */
+footer {
+    text-align: center;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #b22222; /* Red footer */
+    color: white;
+    font-size: 0.9rem;
+}
+
+/* Optional: Add Singaporean icons or images */
+#content img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 10px;
+}
